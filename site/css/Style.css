@@ -1,0 +1,35 @@
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Alinhamento top container*/
+.container_parent {
+    border: 1px solid black;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+    .container_child{
+        display: inline-block;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+    }
+        .container_child2 {
+            display: inline-block;
+            padding: 1rem 1rem;
+            vertical-align: middle;
+        }
+            .container_child3 {
+                display: inline-block;
+                padding: 1rem 1rem;
+                vertical-align: middle;
+            }
+    .logo {
+        align-content: center;
+        width: 200px;
+        height: 120px;
+        padding: 15px;
+    }
+
+ul {
+    list-style: none;
+}
